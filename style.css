@@ -348,18 +348,19 @@ nav a:hover {
 }
 
 
-  /*** SHOWs STYLES ***/
+  /*** MUSICS STYLES ***/
 
   .musicas{
 
     margin-top: 5%;
+    text-align: center;
   }
 
   .musicastitulo{
 
     margin-bottom: 0%;
     backdrop-filter:blur(5px);
-    border: 2px solid;
+    border: 2px solid transparent;
     width: 50%;
     height: 50%;
     background-image: url("2008\ Day\ &\ Age.jpg");
