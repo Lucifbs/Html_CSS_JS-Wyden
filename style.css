@@ -1,15 +1,12 @@
 
   body{
-     background: linear-gradient(
-      180deg,
-      #080808 0%,
-      #080808 65%,
-      rgb(22, 21, 21) 100% );
-      background-repeat: no-repeat;
-      background-size: cover;
-      opacity: 5px;
-      width: 100%;
-      
+    background-image: url("0004\ fundo.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 10px;
+     width: 100%;
+     height: 50%;  
+  
   }
 
 
@@ -30,7 +27,8 @@
     font-size: large;
     width: 100%;
     position: center;
-
+    padding: 20px 0;
+   
   }
 
   button {
@@ -68,7 +66,7 @@
   nav a {
     font-family: 'Bebas Neue', cursive;
     text-transform: uppercase;
-    color:white;
+    color:black;
     font-weight: bold;
     font-size: 30px;
     text-decoration: none;
@@ -80,29 +78,34 @@ nav a:hover {
   
 
   @media screen and (max-width: 480px){
-    #section-news-world, #section-killers-gallery, .gallery-image, .pgheader, .header-content, .container, .section-texts,  .containersection-text, 
-    #music-t  heme-button, .video-frame {width: auto;}
+    #section-news-world, #section-killers-gallery, #killers-trailer, .gallery-container, .gallery-image, .pgheader, .header-content, .container, .section-texts,  .containersection-text, 
+    #music-theme-button, .video-frame {width:auto;} 
     
         h2, h3 {
-        text-align: center;
+      display: flex;
+      position: center;
+      width: 100%;
     }
 
   /* Section 01 - curiosidades */
   
   .container {
     max-width: 480px;
+    display: flex;
+    position: center;
   }
   
   #section-news-world {
-    align-items: center;
+    position: center;
     display: flex;
     width: 100%;
   }
-  
+
+   
   #section-news-world .section-texts {
     width: 100%;
     display: flex;
-    align-items: center;
+    position: center;
   }
   
   #section-news-world .section-texts h2 {
@@ -111,6 +114,13 @@ nav a:hover {
     align-items: center;
   }
   /* Section 02 -The Killers Music */
+
+  #killers-trailer{
+    width: 100%;
+    text-align: center;
+    display: flex;
+
+  }
   
   #section-killers-trailer .section-texts {
     width: 100%;
@@ -128,7 +138,7 @@ nav a:hover {
   
   #section-killers-gallery {
     width: 100%;
-    justify-content: center;
+   position: center;
     display: flex;
   }
   
@@ -144,12 +154,19 @@ nav a:hover {
     height: 50%;
   }
   
-  .gallery-container {
+  .gallery-container .gallery-imagebanda {
     display: flex;
-    gap: 50px;
-    padding-left: 20px;
     width: 50%;
     height: 30%;
+    border-radius: 20px;
+  }
+
+  .gallery-container{
+    display: flex;
+    width: 50%;
+    height: 30%;
+    border-radius: 20px;
+
   }
   
   #section-killers-gallery .gallery-image {
@@ -176,6 +193,7 @@ nav a:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin-top: 10%;
   }
   
   #section-form h2 {
@@ -194,6 +212,7 @@ nav a:hover {
     flex-basis: 100%;
     text-align: center;
     margin: 0;
+   
   }
   
   #section-form .form-container {
@@ -210,7 +229,7 @@ nav a:hover {
     background-color:black;
     color: white;
     text-align: left;
-    margin-top: 8%;
+    margin-top: 4%;
     
   }
   
@@ -260,10 +279,10 @@ nav a:hover {
   input,
   textarea {
     font-family: 'Bebas Neue', cursive; 
-    color:white;
+    color:black;
     letter-spacing: 2px;
     font-size: 25px;
-    display: flex;
+    
     width: 100%;
     position: center;
   }
@@ -306,48 +325,6 @@ nav a:hover {
     border-color: black;
   }
 
-  /*** SHOWs STYLES ***/
-
-  #agenda{
-    font-family: 'Bebas Neue', cursive;
-    font-weight: bolder; 
-    color: black;
-    letter-spacing: 2px;
-    font-size: 30px;
-    position: center;
-    text-transform: uppercase;
-    width: 100%;
-    margin-top: 20px;
-    object-position: center;
-  
-    
-  }
-
-  
-#separar{
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-    margin-top: 10px;
-    position: center;
-    width: 100%;
-    
-  }
-
-.killers-element {
-    display: flex;
-    border: 3px solid;
-    box-sizing: initial;
-    width: 100%;
-    height: 50%;
-    flex-direction: column;
-    overflow: hidden;
-    
-}
-
-
   /*** MUSICS STYLES ***/
 
   .musicas{
@@ -386,6 +363,7 @@ nav a:hover {
     padding: 5px;
     margin: 10px 50px 20px 10;
     position: center;
+    display: flex;
       
   }
 

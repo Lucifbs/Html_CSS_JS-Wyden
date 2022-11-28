@@ -1,0 +1,132 @@
+
+   /*** MUSICS STYLES ***/
+ 
+ body{
+    background-image: url("0004 fundo.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%; 
+    font-family: 'Bebas Neue', cursive;
+     
+  }
+
+  nav {
+    top: 110px;
+    display: inline;
+      
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    width: 100%;
+  }
+  
+  nav a {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+  }
+  
+nav a:hover {
+	color: #c75f19;
+}
+
+.musicas{
+
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px 10px 10px 0;
+  }
+
+  #musicastitulo{
+
+    margin-bottom: 0%;
+    width: 100%;
+    font-size: 10rem;
+    text-align: center;
+    color: black;
+      
+  }
+  
+  h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10rem;
+    font-style:bold;
+    color: #0a0a0a;
+    text-transform: uppercase;   
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    opacity: 40%;
+    display: flex;
+    padding: 20px 0;
+        
+    }
+
+    h2,
+    h3 {
+    letter-spacing: 3px;    
+    font-weight: normal;
+    color: #fc6006;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    display: flex
+    
+ }
+  
+   
+  p{
+    font-family: 'Bebas Neue', cursive; 
+    color:black;
+    letter-spacing: 2px;
+    font-size: 25px;
+    display: flex;
+    width: 100%;
+    position: center;
+    margin: 20px 0;
+  }
+
+  .imagem-alb {
+    
+    text-align: center;
+    font-family: 'Bebas Neue', cursive; 
+    color:black;
+    letter-spacing: 2px;
+    font-size: large;
+    width: 100%;
+    position: center;
+    padding: 20px 0;
+  }
+    
+
+    
+
+  /*** FOOTER STYLES ***/
+  
+  footer {
+    padding: 60px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+           
+  }
+  
+  footer p {
+    max-width: 700px;
+    margin-bottom: 24px;
+    color: white;
+  }
+
+ 
+  

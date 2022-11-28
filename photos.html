@@ -13,7 +13,7 @@
     </head>
 
     <body id="bodyshow">
-    
+
         <header>
 
             <div class="pgheader">
@@ -23,51 +23,112 @@
                         <li><a href="index.html">Home</a></li>
                         <li><a href="shows.html">Shows</a></li>
                         <li><a href="musics.html">Musics</a></li>
-                        <li><a href="photos.html">Photos</a></li>
+                        <li><a href="photos.html">Curiosity</a></li>
                     </ul>
                 </nav>
             </div>
 
+           <img src="0010 preto.jpg" alt=" Imagem de fundo com Logo" width="100%" height="50%"/>
+            
         </header>
-        
-        <h1>Photos</h1> 
-           
-        <h2>Uma das melhores Bandas do século XXI</h2> 
-        
-        <div class="bodyshow">
 
-            <img src="0001 Formação Banda.jpg" alt="Banda in concert" title="Brandon Flower" width="150" height="150" />
+                
+        <main>
+       
+          <section id="section-news-world" class="container">
+            
+            <div class="header-content">
+             
+              <h2>Uma das melhores Bandas do século XXI</h2>
+             
+              <p role="text">
+                Na TV, em 2004 a banda participou de episódio da segunda temporada da Serie The O.C.
+                Na época, o programa era um dos mais famosos do mundo e lançou as principais bandas 
+                de rock daquela década.
+              </p>
+      
+              <section id="killers-trailer" class="container">
+                  <div class="header-content" aria-hidden="true">
+                    <iframe 
+                       width="560" 
+                       height="315" src="https://www.youtube.com/embed/2WyCxJbppkY" 
+                       title="YouTube video player" 
+                       frameborder="0" 
+                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                       allowfullscreen>
+          
+                    </iframe>
+                  </div>
+              </section>
+                
+              <div class="header-content">
+              
+                <h2>Bandas famosas cantam The Killers</h2>
 
-        </div>
+                  <p>A música "All the this things that I've done" é um dos momentos mais emocionantes
+                     da canção o vocalista entoa a frase "I've got a soul but I'm not a soldier" 
+                     esse mesmo refrão conquistou famosos como Robbie Williams, Coldplay e U2 que 
+                     também entoaram a estrofe em seus shows,emocionando os integrantes do
+                     The Killers que estavam iniciando a carreira.</p>
 
-    
-        <div class="bodyshow">
+              </div>       
+      
+                     <section id="killers-trailer" class="container">
+                      <div class="header-content" aria-hidden="true">
+                        <iframe 
+                           width="560" 
+                           height="315" src="https://www.youtube.com/embed/x-TuXEeedeI" 
+                           title="YouTube video player" 
+                           frameborder="0" 
+                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                           allowfullscreen>
+              
+                        </iframe>
+                        <p>The Killers, Coldplay, Bono U2 cantam "All These Things That I've Done"</p>
+                      </div>
+                  </section>
+                     
+                  <div class="header-content">    
+                     <h2>Nome da Banda.</h2>
+                      <p>O vocalista, Brandon Flowers é fã do conjunto New Order e no Clip Crystal, do grupo ingles,
+                     aparece uma banda de mentira chamada The Killers, O vocalista se inspirou no video na hora
+                     de escolher o nome do proprio projeto musical.</p>
+      
+                     <ul class="gallery-container" role="gallery">
+                    
+                        <img src="0008 Crystal.png" alt="Imagem Clip Crystal" />
+                  
+                    </ul> 
+               
+                </div>
 
-            <img class="photos" src="" alt="Banda in concert" title="Banda" width="150" height="150" />
-        
-        </div>  
+                <div class="header-content">    
+                    <h2>O "Bum!" da Fama </h2>
+                     <p> A musica "When you were young" entrou na lista do Jogo Guitar Hero III: Legends of Rock. É um jogo 
+                        eletrônico musical e de ritmo desenvolvido pela Neversoft e publicado pela Activision.
+                        Foi lançado mundialmente em outubro de 2007 para as plataformas PlayStation 2, PlayStation 3,
+                        Wii e Xbox 360.
+                    <ul class="gallery-container" role="gallery">
+                   
+                       <img src="Guitar_Hero_III_Logo.png" alt="Imagem jogo Guitar_Hero_III_Logo" />
+                 
+                   </ul> 
+              
+               </div>
 
-        <div class="bodyshow">
-    
-            <img class="photos" src="0004 fundo.jpg" alt="Imagem novo lançamento" title="Banda" width="150" height="150" />
-        
-        </div>
-
-        <div class="bodyshow">
-
-            <img class="photos" src="0005 Painel.jpg" alt="Imagem banda" />
-        
-        </div>
-
-        
-        <div class="bodyshow">
-
-            <img class="photos" src="0002 Logo.jpg" alt="Logo banda" />  
-        
-        </div>
-
-       <body style=" backgraound-color:black"></body>
-
+               <div id="mus">
+                <button onclick="document.getElementById('player').play()">Play</button>
+                <button onclick="document.getElementById('player').pause()">Pause</button>
+                <button onclick="document.getElementById('player').volume+=0.1">Aumentar volume</button>
+                <button onclick="document.getElementById('player').volume-=0.1">Diminuir volume</button>
+              </div>
+          
+              <audio id="player" autoplay="autoplay" controls="controls">
+                <source src="songs/young.mp3" type="audio/mp3" />
+                seu navegador não suporta HTML5
+              </audio>
+            </div>      
+          
     </main>
         
 

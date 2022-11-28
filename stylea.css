@@ -1,0 +1,136 @@
+
+  body{
+     background-image: url("0007.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 10px;
+     width: 100%;
+     height: 50%;
+
+     
+ }
+
+
+
+ nav {
+   top: 110px;
+   display: inline;
+     
+ }
+ 
+ nav li {
+   display: inline;
+   margin: 0 0 0 15px;
+   width: 100%;
+ }
+ 
+ nav a {
+   font-family: 'Bebas Neue', cursive;
+   text-transform: uppercase;
+   color:white;
+   font-weight: bold;
+   font-size: 30px;
+   text-decoration: none;
+ }
+ 
+nav a:hover {
+   color: #c75f19;
+}
+ 
+
+ /***  GENERIC STYLES ***/
+
+ h1{
+   font-family: 'Bebas Neue', cursive;
+   font-size: 10rem;
+   font-style:bold;
+   color: white;
+   text-transform: uppercase;   
+   width: 100%;
+   position: center;
+   margin-bottom: 10px;
+   text-align: center;
+   
+       
+   }
+  
+ p{
+   font-family: 'Bebas Neue', cursive; 
+   color:white;
+   letter-spacing: 2px;
+   font-size: 25px;
+   display: flex;
+   width: 100%;
+   position: center;
+ }
+
+   
+ /*** SHOWs STYLES ***/
+
+ #agenda{
+   font-family: 'Bebas Neue', cursive;
+   font-weight: bolder; 
+   color: black;
+   letter-spacing: 2px;
+   font-size: 30px;
+   position: center;
+   text-transform: uppercase;
+   text-align: center;
+   width: 100%;
+   margin-top: 15px;
+   object-position: center;
+ 
+   
+ }
+
+ 
+#separar{
+   
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   opacity: 0.8;
+   margin-top: 10px;
+   position: center;
+   width: 100%;
+   
+ }
+
+.killers-element {
+   display: flex;
+   border: 3px solid;
+   box-sizing: initial;
+   width: 100%;
+   height: 50%;
+   flex-direction: column;
+   overflow: hidden;
+   
+}
+
+ 
+ /*** FOOTER STYLES ***/
+ 
+ footer {
+   padding: 60px 0;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+   overflow: hidden;
+   background: linear-gradient(
+        180deg,
+        #080808 0%,
+        #080808 65%,
+        rgb(22, 21, 21) 100% );  
+      
+ }
+ 
+ footer p {
+   max-width: 700px;
+   margin-bottom: 24px;
+   color: white;
+ }
+
+
+ 

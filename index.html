@@ -15,21 +15,20 @@
   <body>
   
   <header>
-    <audio id="music" autoplay>
-      <source src="My Own Souls Warning.m4a" aria-details="Audio do site" />
-    </audio>
-
+   
     <div class="pgheader">
         <nav>
             <ul>
               <li><a href="index.html">Home</a></li>
               <li><a href="shows.html">Shows</a></li>
               <li><a href="musics.html">Musics</a></li>
-              <li><a href="photos.html">Photos</a></li>
+              <li><a href="photos.html">Curiosity</a></li>
             </ul>
         </nav>
     
       </div>
+
+      <img src="0009 boy.jpg" alt="Imagem lançamento futuro boy" width="100%" height="40%">
 
   </header> 
 
@@ -41,69 +40,36 @@
         Ronnie Vannucci (bateria) e Mark Stoermer (baixo e vocal de apoio). Seu primeiro álbum, Hot Fuss, 
         foi lançado em 15 de junho de 2004, obtendo ótimas críticas e grande reconhecimento
         junto ao público, em grande parte devido aos sucessos "Somebody Told Me", "Mr. Brightside" 
-        e à sonoridade dançante dos anos 80, oriunda dos sons sintéticos das canções. 
-      </p>
-      <button id="music-theme-button" onclick="tocar()">Play</button>
+        e à sonoridade dançante dos anos 80, oriunda dos sons sintéticos das canções. </p>
      
     </div>
-
+    
+    <div>
+      <button onclick="document.getElementById('player').play()">Play</button>
+      <button onclick="document.getElementById('player').pause()">Pause</button>
+      <button onclick="document.getElementById('player').volume+=0.1">Aumentar volume</button>
+      <button onclick="document.getElementById('player').volume-=0.1">Diminuir volume</button>
     
   <main>
- 
-    <section id="section-news-world" class="container">
-      <div class="section-texts">
-        <h2>Uma das melhores Bandas do século XXI</h2>
-        <p role="text">
-          Na TV, em 2004 a banda participou de episódio da segunda temporada da Serie The O.C.
-          Na época, o programa era um dos mais famosos do mundo e lançou as principais bandas 
-          de rock daquela década.
-        </p>
 
-        <section id="killers-trailer" class="container">
-            <div class="video-frame" aria-hidden="true">
-              <iframe 
-                 width="560" 
-                 height="315" src="https://www.youtube.com/embed/2WyCxJbppkY" 
-                 title="YouTube video player" 
-                 frameborder="0" 
-                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                 allowfullscreen>
+    <audio id="player" autoplay="autoplay" controls="controls">
+      <source src="songs/brightside.mp3" type="audio/mp3" />
+      seu navegador não suporta HTML5
+  </div>
     
-              </iframe>
-            </div>
-        </section>
-          
-        
-          <h2>Bandas famosas cantam estrofe.</h2>
-            <p>A música "All the this things that I've done" é um dos momentos mais emocionantes
-               da canção o vocalista entoa a frase "I've got a soul but I'm not a soldier" 
-               diversas vezes e em 2005 no show Live 8, esse mesmo refrão conquistou famosos como
-               Robbie Williams, Coldplay e U2 que também entoaram a estrofe em seus shows,
-               emocionando os integrantes do The Killers que estavam iniciando a carreira.</p>
-               
-
-               <h2>Nome da Banda.</h2>
-                <p>O vocalista, Brandon Flowers é fã do conjunto New Order e no Clip Crystal, do grupo ingles,
-               aparece uma banda de mentira chamada The Killers, O vocalista se inpirou no video na hora
-               de escolher o nome do proprio projeto musical.</p>
-
-               <ul class="gallery-container" role="gallery">
-                <li class="gallery-image banda">
-                  <img src="0008 Crystal.png" alt="Imagem Clip Crystal" />
-                </li>
-              </ul> 
-         
       <div>
            
     <section id="section-form" class="container">
-      <h2>O Club Oficial The Killers</h2>
+         
+      <div class="form-content">
+
+        <h3>Entre para o clube oficial da Banda </h3>
+          
       <p>
         Para participar dos bastidores das gravações, brindes e informações exclusivas sobre shows e promoções
         da banda, inscreva-se agora no Fã clube oficial.
       </p>
-
-      <div class="form-content">
-        <h3>Entre para o clube oficial da Banda <span>The Victims<span></span></h3>
+          <h2><span>The Victims</span> </h2>    
 
         <div class="form-container">
           <form>
@@ -134,15 +100,7 @@
     </p>
     <img src="2003 Logo Banda adotado.jpg" alt="">
   </footer>
-  <body style= "background-image: url(0004 fundo.jpg)">
-
-  <script>      
-    const audio = new Audio('My Own Souls Warning.m4a');
-    audio.src = music;
-    audio.play();
-    audio.volume = 0.2;
-   </script>
-
-  
+    
   </body>
 </html>
+
